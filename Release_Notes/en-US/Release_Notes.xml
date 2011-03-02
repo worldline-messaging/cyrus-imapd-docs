@@ -5,11 +5,28 @@
 ]>
 <article status="draft">
     <xi:include href="Article_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-    <section id="sect-Release_Notes-Not_Available">
-        <title>Not Available</title>
+    <section id="sect-Release_Notes-Changes_to_Default_Settings">
+        <title>Changes to Default Settings</title>
         <para>
-            The release notes are not available with 2.4
+            Several settings have changed defaults. For environments that upgrade from 2.4 to 2.5, please be aware of the consequences of these defaults having been changed, listed below.
         </para>
+        <section id="sect-Release_Notes-Changes_to_Default_Settings-lmtp_downcase_rcpt">
+            <title><code>lmtp_downcase_rcpt</code></title>
+            <para>
+                Before Cyrus IMAP 2.5, <code>lmtp_downcase_rcpt</code> had defaulted to <literal>0</literal>, meaning the recipient address had always been case-sensitive. <ulink url="http://tools.ietf.org/search/rfc2821">RFC 2821</ulink> however states:
+            </para>
+            <blockquote>
+                <para>
+                    <emphasis>However, exploiting the case sensitivity of mailbox local-parts impedes interoperability and is discouraged.</emphasis>
+                </para>
+
+            </blockquote>
+            <para>
+                Cyrus IMAP developers and users alike therefor consider converting the mailbox local-parts to lowercase is therefor justified.
+            </para>
+
+        </section>
+
 
     </section>
 
