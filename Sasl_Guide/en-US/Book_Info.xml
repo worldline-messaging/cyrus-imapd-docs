@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "Sasl_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Cyrus_SASL_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<bookinfo id="book-Sasl_Guide-Sasl_Guide">
+<bookinfo id="book-Cyrus_SASL_Guide-Cyrus_SASL_Guide">
     <title>Cyrus SASL Guide</title>
     <subtitle>short description</subtitle>
     <productname>Cyrus SASL</productname>

@@ -1,118 +1,133 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % BOOK_ENTITIES SYSTEM "Sasl_Guide.ent">
+<!ENTITY % BOOK_ENTITIES SYSTEM "Cyrus_SASL_Guide.ent">
 %BOOK_ENTITIES;
 ]>
-<chapter id="chap-Sasl_Guide-Authentication_Mechanisms">
+<chapter id="chap-Cyrus_SASL_Guide-Authentication_Mechanisms">
     <title>Authentication Mechanisms</title>
     <para>
         para
     </para>
-    <sect1 id="sect-Sasl_Guide-external">
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-EXTERNAL">
         <title>EXTERNAL</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-anonymous">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-ANONYMOUS">
         <title>ANONYMOUS</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-plain">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-PLAIN">
         <title>PLAIN</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-login">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-LOGIN">
         <title>LOGIN</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-cram_md5">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-CRAM_MD5">
         <title>CRAM-MD5</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-digest_md5">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-DIGEST_MD5">
         <title>DIGEST-MD5</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-scram">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-SCRAM">
         <title>SCRAM</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-gssapi">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-GSSAPI">
         <title>GSSAPI</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-gs2-krb5">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-GS2_KRB5">
         <title>GS2-KRB5</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-gs2-iakerb">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-GS2_IAKERB">
         <title>GS2-IAKERB</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-ntlm">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-NTLM">
         <title>NTLM</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-srp">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-SRP">
         <title>SRP</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-pssdss">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-PSSDSS">
         <title>PSSDSS</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-otp">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-OTP">
         <title>OTP</title>
         <para>
             para
         </para>
 
-    </sect1>
-    <sect1 id="sect-Sasl_Guide-non_sasl_auth">
+    </section>
+
+    <section id="sect-Cyrus_SASL_Guide-Authentication_Mechanisms-Non_SASL_Authentication">
         <title>Non-SASL Authentication</title>
         <para>
             para
         </para>
 
-    </sect1>
+    </section>
+
 
 </chapter>
 
